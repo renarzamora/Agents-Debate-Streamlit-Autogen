@@ -11,8 +11,7 @@ Each debate consists of 3 rounds and ends automatically when the host says **TER
 ---
 
 ## 🚀 Demo
-![demo](docs/demo.gif)  
-*(Optional GIF showing the app in action)*
+https://www.youtube.com/watch?v=4WiN47BeDLs  
 
 ---
 
