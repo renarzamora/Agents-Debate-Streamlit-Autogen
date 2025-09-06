@@ -1,0 +1,5 @@
+streamlit==1.37.0
+python-dotenv==1.0.1
+autogen-agentchat==0.2.25
+autogen-ext==0.2.25
+autogen-core==0.2.25
