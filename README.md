@@ -172,4 +172,4 @@ venv/
 
 --- 
 I hope you really enjoy it! - Renar
-watch my profile here https://www.linkedin.com/in/renar-arnoldo-zamora-54bb9024/
+watch my git profile here https://www.linkedin.com/in/renar-arnoldo-zamora-54bb9024/
