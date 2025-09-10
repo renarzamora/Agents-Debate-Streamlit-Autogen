@@ -19,11 +19,9 @@ https://www.youtube.com/watch?v=4WiN47BeDLs
 
 Clone the repo and enter the directory:
 
-```bash
 git clone https://github.com/yourusername/agents-debate.git
 cd agents-debate
 
----
 
 Create a virtual environment (optional but recommended):
 python3.12 -m venv .venv
@@ -32,9 +30,7 @@ source .venv/bin/activate
 Install dependencies:
 ip install -r requirements.txt
 
----
-
-🔑 Configuration
+## 🔑 Configuration
 Copy the example environment file and add your OpenAI API key:
 
 bash
@@ -45,17 +41,13 @@ Edit .env:
 env
 OPENAI_API_KEY=sk-xHEARxYOURxOPENAIxAPIxKEY
 
----
-
-▶️ Usage
+## ▶️ Usage
 Run the app:
 
 bash
 streamlit run app.py
 
----
-
-📂 Project Structure
+## 📂 Project Structure
 Code
 agents-debate/
 ├── app.py              # Streamlit UI
@@ -65,9 +57,7 @@ agents-debate/
 ├── .gitignore
 └── README.md
 
----
-
-🛠️ Technologies
+## 🛠️ Technologies
 Streamlit – Fast Python UI
 
 AutoGen – AI agent framework
@@ -118,9 +108,7 @@ if start and not st.session_state.running:
         st.session_state.running = False
 
 
----
-
-📌 Roadmap(for you,go ahead!)
+## 📌 Roadmap(for you,go ahead!)
 Save debate transcript in JSON/TXT
 
 Allow model selection (gpt-4o, gpt-4.1, etc.)
@@ -129,9 +117,7 @@ Adjust temperature and response length
 
 Add more agents (jury, audience, fact-checker)
 
----
-
-📜 License
+## 📜 License
 MIT
 
 📄 .env.example
@@ -139,9 +125,7 @@ bash
 # OpenAI API Key
 OPENAI_API_KEY=sk-xHEARxYOURxOPENAIxAPIxKEY
 
----
-
-📄 requirements.txt
+## 📄 requirements.txt
 Stable and recent versions (adjust if needed for compatibility):
 
 txt
@@ -151,9 +135,7 @@ autogen-agentchat==0.2.25
 autogen-ext==0.2.25
 autogen-core==0.2.25
 
----
-
-📄 .gitignore
+## 📄 .gitignore
 txt
 # Python
 __pycache__/
